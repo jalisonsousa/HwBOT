@@ -8,6 +8,7 @@
   A bot to automate things on [Hacker Wars](hackerwars.io).
   
   ---
+</div>
 
 ## Overview
 
