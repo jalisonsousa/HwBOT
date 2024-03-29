@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="icon.png" alt="Glyder logo" width="150px" />
+  <img src="HwBot.png" alt="Glyder logo" width="150px" />
   
   # HwBOT
 
