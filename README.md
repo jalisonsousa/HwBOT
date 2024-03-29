@@ -43,4 +43,4 @@ License
 ---
 Licensed under the MIT.
 
-[![License: GPLv2](https://img.shields.io/badge/License-GPL%20v2-red.svg?style=for-the-badge)](https://github.com/exteraDev/HwBOT/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-red.svg?style=for-the-badge)](https://github.com/exteraDev/HwBOT/blob/main/LICENSE)
