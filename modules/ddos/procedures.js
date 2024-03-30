@@ -129,6 +129,6 @@ ddos.procedure("deleteRelatory", function (shared, hooks) {
         setTimeout(function () {
             document.getElementById("modal-form").submit();
             hooks.next()
-        }, 6000);
+        }, 4000);
     }
 })

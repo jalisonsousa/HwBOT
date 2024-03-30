@@ -8,6 +8,5 @@ foo.instructions = [
     {"@waitDdos":   ["goToDDoSPage", "isThereMessageError", {"jumpif":["!*.$", "@finish"]}, "waitProgressBar"]},
     {"@cleanLogs":  ["goToOwnLogTab", "cleanTextAreaContent", {"jumpif": ["*.isEmpty == true", "@finish"]}, "waitProgressBar"]},
     {"@finishDdos": ["goToSoftwarePage", "deleteRelatory", "decreaseTimes", "checkTimes", {"jumpif": ["*.$", "@startChain"]}]},
-    
     {"@finish":     {"exit": 1}}
 ]
