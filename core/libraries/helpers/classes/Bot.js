@@ -21,7 +21,7 @@ function Bot(){
 	fieldsContent[FIELD_IPS_START_SEARCHING] = ""
 	fieldsContent[FIELD_IP_SEARCH_RESULT] = ""
 	fieldsContent[REGEX_INPUT_DOM_ID] = ""
-	fieldsContent[LANGUAGE_FIELD] = "br"
+	fieldsContent[LANGUAGE_FIELD] = "en"
 	//fieldsContent[FIELD_SOFTWARES_TO_INSTALL] = ""
 	//fieldsContent[SET_TIME_LIMIT] = ""
 	fieldsContent[WEBCRAWLER_SCRIPT] = 'upload("soft_name.vddos", "install & hide", "1.0")\nseconds_limit(120)\n//create_file("I was here", `You\'re ${target.internet} Mbit`)'
@@ -39,7 +39,7 @@ function Bot(){
 	checkBoxes[SET_MONITOR_EMAIL] = false
 	checkBoxes[SET_MISSIONS_MONITOR] = false
 	checkBoxes[SET_LOGS_MONITOR] = false
-	checkBoxes[SET_SHARE_WEBCRAWLER] = false	
+	checkBoxes[SET_SHARE_WEBCRAWLER] = true	
 	//checkBoxes[SET_UPLOAD_MODE] = false
 	checkBoxes[SET_SIGNATURE] = false
 	checkBoxes[SET_IGNORE_LIST] = false
