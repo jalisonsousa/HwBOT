@@ -107,6 +107,7 @@ var views = {
 				'<a href="https://github.com/sjs1985">sjs1985</a> - ' + LANG.CREDITS_sjs1985 + '<br />' +
 				'<a href="https://github.com/fkapitalism">fkapitalism</a> - ' + LANG.CREDITS_fkapitalism + '<br />' +
 				'<a href="https://github.com/exteraDev">exteraDev</a> - ' + LANG.CREDITS_exteraDev + '<br />' +
+				'<a href="https://github.com/jalisonsousa">jalisonsousa</a> - ' + LANG.CREDITS_jalisonsousa + '<br />' +
 				'<a href="https://github.com/AssHole12">AssHole12</a> - ' + LANG.CREDITS_AssHole12 + '<br /><br />' +
 				LANG.CREDITS_OTHERS +
 				'</div><br />' +
