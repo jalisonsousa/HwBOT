@@ -44,6 +44,7 @@ LANG_CONTENT[LANG_BR] = {
     CREDITS_fkapitalism: "Área de configuração e sandbox para os scripts do webcrawler",
     CREDITS_AssHole12: "Tradução para o Alemão",
     CREDITS_exteraDev: "Pequenas melhorias no Design e ajuste para evitar banimento",
+    CREDITS_jalisonsousa: "Adição de novos enigmas e scripts webcrawler",
     CREDITS_Logfro: "DDoS",
     CREDITS_OTHERS: "e dezenas de pessoas que contribuiram com sugestões e relatórios de bugs.",
     CREDITS_BACK_BUTTON: "Voltar",

@@ -4,8 +4,8 @@
 	@author: GRSa;
 	@parameters: puzzle_id (Integer): The puzzle constant id;
 	@return: 
-		*default: (Boolean) Return true if puzzle is solved. If the puzzle is solved by function, usually the page reloads before the function returning something, though.
-		*error: (Boolean) Return false if puzzle was not found;
+		*default: (Boolean) Retorne true se o quebra -cabeça for resolvido.Se o quebra -cabeça for resolvido por função, geralmente a página recarrega antes da função retornar algo.
+		*error: (Boolean) Retornar falso se o quebra -cabeça não for encontrado;
 */
 function solvePuzzle(puzzle_id){
 	if (!getNextPuzzleIP()){
@@ -110,7 +110,16 @@ function solvePuzzle(puzzle_id){
 				text_answer = "Phoebe";
 				break;
 			case PUZZLE_BROWN: //Puzzle brown
-				text_answer = "Penny";
+				var lang = detectLang()
+				switch(lang){
+					case LANG_EN:
+						text_answer = "Penny";
+						break;
+					case LANG_BR:
+						text_answer = "centavo";
+						break;
+					default: text_answer = "Penny";
+				}
 				break;
 			case PUZZLE_OLDHOTEL: //Old hotel
 				text_answer = "Nishiyama Onsen Keiunkan";
@@ -121,13 +130,13 @@ function solvePuzzle(puzzle_id){
 			case PUZZLE_COMMONHASH: //Common hash
 				text_answer = "password123";
 				break;
-			case PUZZLE_THISGAME: //Card games
+			case PUZZLE_THISGAME: //This game was developed
 				text_answer = "47";
 				break;
-			case PUZZLE_BEEPBEEP: //Card games
+			case PUZZLE_BEEPBEEP: //Beep Beep
 				text_answer = "SHOW NO REMORSE";
 				break;
-			case PUZZLE_PLUSTIMES: //Card games
+			case PUZZLE_PLUSTIMES: //Addition and multiplication was developed
 				text_answer = "1, 2, 3";
 				break;
 			case PUZZLE_MOSTPOPYTVID: //Most popular Youtube video
@@ -147,6 +156,27 @@ function solvePuzzle(puzzle_id){
 				break;
 			case PUZZLE_HACKERMAN: //Hackerman movie origin
 				text_answer = "Kung Fury";
+				break;
+			case PUZZLE_THEMATRIX: // The Matrix was developed
+				text_answer = "Morpheus";
+				break;
+			case PUZZLE_NUMBERCIPHER: // Numbers Cipher was developed
+				text_answer = "hacker";
+				break;
+			case PUZZLE_COMPUTERMUSEU: // Computer Museum was developed
+				text_answer = "lcm+l";
+				break;
+			case PUZZLE_TALLBUILDING: // Tall building was developed
+				text_answer = "Burj Khalifa";
+				break;
+			case PUZZLE_BITCOINCREATOR: // Bitcoin was developed
+				text_answer = "Satoshi Nakamoto";
+				break;
+			case PUZZLE_BITCOINHASH: //  Bitcoin Hash Function was developed
+				text_answer = "sha256";
+				break;
+			case PUZZLE_GAMERELEASE: //  Bitcoin Hash Function was developed
+				text_answer = "10/11/2019";
 				break;
 			default: 
 				return false;

@@ -44,6 +44,7 @@ LANG_CONTENT[LANG_EL] = {
     CREDITS_fkapitalism: "Περιοχή ρυθμίσεων and περιβάλλον δοκιμών σεναρίου ανιχνευτή ιστού",
     CREDITS_AssHole12: "Μετάφραση στα γερμανικά",
     CREDITS_exteraDev: "Μικρές βελτιώσεις και προσαρμογές σχεδιασμού για αποφυγή απαγόρευσης",
+    CREDITS_jalisonsousa: "Προσθήκη νέων παζλ και σεναρίων webcrawler",
     CREDITS_Logfro: "DDoS",
     CREDITS_OTHERS: "και δεκάδες άνθρωποι που συνείσφεραν με προτάσεις και αναφορές σφαλμάτων.",
     CREDITS_BACK_BUTTON: "Επιστροφή",

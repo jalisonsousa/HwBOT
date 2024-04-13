@@ -129,7 +129,14 @@ const PUZZLE_MOSTPOPYTVID = 36;
 const PUZZLE_GEMWORD = 37;
 const PUZZLE_HACKERMAN = 38;
 
-
+/* Novos enigmas e respostas by jalisonsousa*/
+const PUZZLE_THEMATRIX = 39;
+const PUZZLE_NUMBERCIPHER = 40;
+const PUZZLE_COMPUTERMUSEU = 41;
+const PUZZLE_TALLBUILDING = 42;
+const PUZZLE_BITCOINCREATOR = 43;
+const PUZZLE_BITCOINHASH = 44;
+const PUZZLE_GAMERELEASE = 45;
 
 /*
 	Puzzle descriptor
@@ -173,7 +180,14 @@ const PUZZLE_DESCRIPTOR = [
     {id:PUZZLE_PLUSTIMES, names:["Addition and multiplication was developed","Adição e multiplicação foi desenvolvido"]},
     {id:PUZZLE_MOSTPOPYTVID, names:["Most popular Youtube video","Vídeo mais popular do Youtube"]},
     {id:PUZZLE_GEMWORD, names:["Gem Word Unscrambler was developed","Decifrador de Palavra Gema foi desenvolvido"]},
-    {id:PUZZLE_HACKERMAN, names:["Hackerman was developed","Hackerman foi desenvolvido"]}
+    {id:PUZZLE_HACKERMAN, names:["Hackerman was developed","Hackerman foi desenvolvido"]},
+    {id:PUZZLE_THEMATRIX, names:["The Matrix was developed","The Matrix foi desenvolvido"]},
+    {id:PUZZLE_NUMBERCIPHER, names:["Numbers Cipher was developed","Cifra de Números foi desenvolvido"]},
+    {id:PUZZLE_COMPUTERMUSEU, names:["Computer Museum was developed","Museu do Computador foi desenvolvido"]},
+    {id:PUZZLE_TALLBUILDING, names:["Tall building was developed","prédio alto foi desenvolvidoo"]},
+    {id:PUZZLE_BITCOINCREATOR, names:["Bitcoin was developed","Qual é o nome da pessoa que desenvolveu o bitcoin"]},
+    {id:PUZZLE_BITCOINHASH, names:["Bitcoin Hash Function was developed","Função Bitcoin Hash foi desenvolvido"]},
+    {id:PUZZLE_GAMERELEASE, names:["Hackewars.io Release Date was","Data de lançamento do Hackewars.io foi"]}
 ]
 
 

@@ -44,6 +44,7 @@ LANG_CONTENT[LANG_EN] = {
     CREDITS_fkapitalism: "Settings area and webcrawler scripts sandbox",
     CREDITS_AssHole12: "Translation to German",
     CREDITS_exteraDev: "Small design improvements and adjustments to avoid banning",
+    CREDITS_jalisonsousa: "Addition of new puzzles and webcrawler scripts",
     CREDITS_Logfro: "DDoS",
     CREDITS_OTHERS: "and dozens of people who contributed with suggestions and bug reports.",
     CREDITS_BACK_BUTTON: "Back",
