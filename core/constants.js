@@ -1,4 +1,4 @@
-const VERSION_BOT = "0.3.0.0"
+const VERSION_BOT = "0.3.1.0"
 const COMMAND_PANEL_STORAGE_NAME = "HwBot-ControlPanel"
 const BOT_STORAGE_NAME = "HwBot-State"
 
