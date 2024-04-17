@@ -49,7 +49,7 @@ missions.procedure("getURLMission", function(shared, hooks){
 	if (urlMission){
 		setTimeout(function(){
 			hooks.next("Ok. I got a mission.")
-		},4000);
+		},2000);
 	} else {
 		var timeToNextMissions = getDOMElement("b", null, null, 0).childNodes[0].nodeValue; //Get the time missing to next missions package
 		if (timeToNextMissions > 0){
@@ -66,12 +66,12 @@ missions.procedure("getURLMission", function(shared, hooks){
 							clearInterval(delay);
 							hooks.next("Ok. Time is over.")
 						}
-					}, 3000); //Repeat the function every second
+					}, 2000); //Repeat the function every second
 
 		} else {
 			setTimeout(function(){
 				hooks.next("Ok. I got time 0.")
-			}, 4000)
+			}, 2000)
 		} 
 	}
 })

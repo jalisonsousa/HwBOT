@@ -6,7 +6,7 @@ botkit.procedure("handle_cf_page", function(){
 		playSound('bad_page_reloaded.mp3')
 		setTimeout(function() {
 			location.reload();
-		}, 5000);
+		}, 4000);
 	}
 	return null
 })  
@@ -19,7 +19,7 @@ botkit.procedure("handle_5xx_page", function() {
 		playSound('bad_page_reloaded.mp3')
 		setTimeout(function() {
 			location.reload();
-		}, 5000);
+		}, 4000);
 	}
 	return null
 })

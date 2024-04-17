@@ -123,7 +123,7 @@ cleanersMod.procedure('waitProgressBar', (shared, hooks) => {
 		} else {
 			var progressBar = getDOMElement("div", "role", "progressbar", 0)
 			if(!progressBar){
-				counter += 4000;
+				counter += 2000;
 				if(counter > 5000){//It wait 5 seconds for the progress bar 
 					shared.isThereMessageError = false;
 					clearInterval(loop)
@@ -134,7 +134,7 @@ cleanersMod.procedure('waitProgressBar', (shared, hooks) => {
 				console.log("I see! Waiting progressbar!")
 			}
 		}
-	}, 4000)
+	}, 2000)
 })
 
 cleanersMod.procedure("submitLogs", function(shared, hooks){

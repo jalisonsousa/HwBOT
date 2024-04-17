@@ -7,7 +7,7 @@ foo.instructions = [
 	{"@tryToAcceptMission": 		["goToAcceptMissionPage", "isThereMessageError", {"jumpif": ["*.$", "@init"]}, "clickOnAcceptMissionButton", "waitForSubmitButton", "clickOnConfirmAcceptMissionButton", "isThereMessageError", {"jumpif":["*.$", "@init"]}]},
 	{"@startMissionExecution": 		["getMissionInfo", "logout", "goToNextIp"]},
 	{"@hackAccountProcess": 		["hackAccount", "isCrackerStrongEnough", {"jumpif":["!*.$", "@abortProcess"]}, "isThereMessageError", {"jumpif":["*.$", "@signInAccountAndTransfer"]}, "waitProgressBar"]},
-	{"@signInAccountAndTransfer": 	["goToPageAccountLoginPage", "signInAccount", "checkFunds", {"jumpif":["!*.$", "@logoutAccount"]}, {"wait": 3000}, "transferRandomValueToTarget", {"jumpif":["*.rest <= 0", "@logoutAccount"]}, {"wait":3000}, "transferTheRestToMe", "sendMoneyToBTCWallet"]},
+	{"@signInAccountAndTransfer": 	["goToPageAccountLoginPage", "signInAccount", "checkFunds", {"jumpif":["!*.$", "@logoutAccount"]}, {"wait": 2000}, "transferRandomValueToTarget", {"jumpif":["*.rest <= 0", "@logoutAccount"]}, {"wait":2000}, "transferTheRestToMe", "sendMoneyToBTCWallet"]},
 	{"@logoutAccount": 				["getOutFromAccount", "logout"]},
 	{"@tryHostConnection": 			["forceToAccessTarget", "isThereMessageError", {"jumpif":["*.$", "@accessTarget"]}, "hackTargetBruteForce", "isThereMessageError", {"jumpif":["*.$", "@cleanOwnLogs"]}, "waitProgressBar"]},
 	{"@accessTarget": 				["goToLoginPage", "cancelLogProcesses", "signInKnownTarget"]},

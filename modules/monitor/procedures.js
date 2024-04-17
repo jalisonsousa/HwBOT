@@ -189,7 +189,7 @@ monitor.procedure("checkTime", function(shared, hooks){
 		}	
 		setTimeout(function(){
 			hooks.next("try to get the left seconds again")
-		}, 3000)
+		}, 2000)
 	}
 	//return null
 })
