@@ -49,7 +49,7 @@ missions.procedure("getURLMission", function(shared, hooks){
 	if (urlMission){
 		setTimeout(function(){
 			hooks.next("Ok. I got a mission.")
-		},2000);
+		},1000);
 	} else {
 		var timeToNextMissions = getDOMElement("b", null, null, 0).childNodes[0].nodeValue; //Get the time missing to next missions package
 		if (timeToNextMissions > 0){
@@ -66,12 +66,12 @@ missions.procedure("getURLMission", function(shared, hooks){
 							clearInterval(delay);
 							hooks.next("Ok. Time is over.")
 						}
-					}, 2000); //Repeat the function every second
+					}, 1000); //Repeat the function every second
 
 		} else {
 			setTimeout(function(){
 				hooks.next("Ok. I got time 0.")
-			}, 2000)
+			}, 1000)
 		} 
 	}
 })
@@ -97,10 +97,10 @@ missions.procedure("informBalance", function(shared, hooks){
 				setTimeout(() => {
 					hooks.next()
 					button.click()
-				},4000)
+				},1000)
 			}
-		}, 4000)
-	},4000)
+		}, 1000)
+	},1000)
 		
 })
 
@@ -115,10 +115,10 @@ missions.procedure("confirmMissionCompleteButton", function(shared, hooks){
 				setTimeout(() => {
 					hooks.next()
 					button.click()
-				},4500)
-			},4000)
+				},1000)
+			},1000)
 		}
-	}, 4000)
+	}, 1000)
 
 	//hooks.next()
 	//getDOMElement("input", "id", "modal-submit", 0).click()
@@ -206,7 +206,7 @@ missions.procedure("clickOnAcceptMissionButton", function(shared, hooks){
 				clearInterval(loop)
 				hooks.next()
 			}
-		},4000)
+		},1000)
 	}
 })
 
@@ -219,9 +219,9 @@ missions.procedure("clickOnConfirmAcceptMissionButton", function(shared, hooks){
 			setTimeout(() => {
 				hooks.next()
 				button.click()
-			}, 4000)	
+			}, 1000)	
 		}
-	}, 4000)
+	}, 1000)
 })
 
 missions.procedure("waitForSubmitButton", function(shared, hooks){
@@ -245,7 +245,7 @@ missions.procedure("waitForSubmitButton", function(shared, hooks){
 				hooks.next("Button is ready!")
 			}
 		}
-	}, 4000)
+	}, 1000)
 })
 
 missions.procedure("test0", function(shared, hooks){
@@ -281,9 +281,9 @@ missions.procedure("clickOnAbortMissionButton", function(shared, hooks){
 			setTimeout(() => {
 				hooks.next()
 				button.click()
-			}, 4000)	
+			}, 1000)	
 		}
-	}, 4000)
+	}, 1000)
 
 })
 
@@ -305,9 +305,9 @@ missions.procedure("clickOnConfirmAbortMissionButton", function(shared, hooks){
 			setTimeout(() => {
 				hooks.next()
 				button.click()
-			}, 4000)	
+			}, 1000)	
 		}
-	}, 4000)
+	}, 1000)
 
 	//hooks.next()
 	//getDOMElement("input", "type", "submit", 0).click()
@@ -550,7 +550,7 @@ missions.procedure("clickOnFinishButton", function(shared, hooks){
 				clearInterval(loop)
 				hooks.next()
 			}
-		},6000)
+		},1000)
 	}
 
 
@@ -592,7 +592,7 @@ missions.procedure('waitProgressBar', (shared, hooks) => {
 		} else {
 			var progressBar = getDOMElement("div", "role", "progressbar", 0)
 			if(!progressBar){
-				counter += 4000;
+				counter += 1000;
 				if(counter > 5000){//It wait 5 seconds for the progress bar 
 					shared.isThereMessageError = false;
 					clearInterval(loop)
@@ -603,7 +603,7 @@ missions.procedure('waitProgressBar', (shared, hooks) => {
 				console.log("I see! Waiting progressbar!")
 			}
 		}
-	}, 4000)
+	}, 1000)
 })
 
 
@@ -643,7 +643,7 @@ missions.procedure("transferToMe", function(shared, hooks){
 			getDOMElement("input", "name", "ip", 1).value = shared.ips[0]
 			hooks.next()
 			getDOMElement("button", "class", "btn btn-success", 0).click()
-		},6000)
+		},1000)
 	} else {
 		return null
 	}
@@ -660,7 +660,7 @@ missions.procedure("transferTheRestToMe", function(shared, hooks){
 			getDOMElement("input", "name", "ip", 1).value = shared.ips[1]
 			hooks.next()
 			getDOMElement("button", "class", "btn btn-success", 0).click()
-		},6000)
+		},1000)
 		
 	} else {
 		return null
