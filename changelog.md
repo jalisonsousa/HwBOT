@@ -1,5 +1,6 @@
 ## Changelog
 
+* v0.3.1.3 - Missions intervals fixes
 * v0.3.1.0 Fix some translations/bugs, new Puzzles and DDoS again
 * v0.3.0.0 Rebranded to HwBot, small design improvements and adjustments to avoid banning
 * v0.2.10.1 503 page is bypassed.
