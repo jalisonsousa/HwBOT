@@ -73,11 +73,8 @@ const AREA_WARN_WEBCRAWLER = "area-warn-webcrawler"
 
 const STORAGE_GEARS = "STORAGE_GEARS"
 
-const LANG_EN = "en";
 const LANG_BR = "br";
-const LANG_DE = "de";
-const LANG_EL = "el";
-const LANGUAGES = [LANG_EN, LANG_BR, LANG_DE, LANG_EL];
+const LANGUAGES = [ANG_BR];
 
 //Missions type
 const CHECK_BALANCE = "checkBalance"

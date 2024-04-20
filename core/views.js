@@ -137,13 +137,6 @@ var views = {
 						'<label><input class="checkBoxes" style="margin:0;" id="' + SET_SHARE_WEBCRAWLER + '" type="checkbox"><span style="margin-left:4px;">' + LANG.WEBCRAWLER_SHARE_HOSTS + '</span>&nbsp;<span style="color: red">💖</span></label>' +
 					'</div>'+
 
-					'<h4>' + LANG.CONFIG_LANG_NAME + '</h4>'+
-					'<div class="divider">'+
-						'<label><input class="fieldsContent" style="margin:0;" id="' + LANGUAGE_FIELD + '" type="text"><span style="margin-left:4px;"> <b>br</b>, <b>de</b>, <b>el</b>, <b>en</b></span></label>' +
-					'</div>'+
-					'<button id="' + CONFIG_TO_MAIN + '" class="btn btn-success" style="border-radius:4px;">' + LANG.CREDITS_BACK_BUTTON + '</button>'+
-				'</div>'+
-
 				'</div><br />' +
 			
 			'</div>' +
