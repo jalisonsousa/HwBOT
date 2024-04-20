@@ -38,7 +38,7 @@ function Bot(){
 	var checkBoxes = {}
 	checkBoxes[SET_MONITOR_EMAIL] = false
 	checkBoxes[SET_MISSIONS_MONITOR] = false
-	checkBoxes[SET_LOGS_MONITOR] = false
+	checkBoxes[SET_LOGS_MONITOR] = true
 	checkBoxes[SET_SHARE_WEBCRAWLER] = false	
 	//checkBoxes[SET_UPLOAD_MODE] = false
 	checkBoxes[SET_SIGNATURE] = false
@@ -46,7 +46,7 @@ function Bot(){
 	checkBoxes[SET_TRANSFER_TO_BTC] = false
 	checkBoxes[SET_SKIP_AFTER_UPLOAD] = false
 	//checkBoxes[SET_HIDE_MODE] = true
-	checkBoxes[SET_POPUP_AFTER_INSTRUCTION] = true
+	checkBoxes[SET_POPUP_AFTER_INSTRUCTION] = false
 
 	this.controlPanel.fieldsContent = fieldsContent
 	this.controlPanel.lists = lists

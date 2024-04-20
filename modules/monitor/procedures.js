@@ -46,7 +46,7 @@ monitor.procedure("checkMyOwnLogs", function(shared){
 		} else {
 			clearInterval(loop)
 		}
-	}, 3000)	
+	}, 2000)	
 })
 
 monitor.procedure("readEmail", function(shared, hooks){
