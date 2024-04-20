@@ -5,42 +5,42 @@
   # HwBOT
 
   
-  A bot to automate things on [Hacker Wars](hackerwars.io).
+  Um bot para automatizar as coisas para [Hacker Wars](hackerwars.io).
   
   ---
 </div>
 
 ## Overview
 
-Functionalities:
+Funcionalidades:
 
-* Solves riddles path
-* Performs game missions
-    * Hard and medium missions
-    * Very easy missions - Delete software missions
-* Intercepts bank transactions
-* Performs massive uploads
-* Cleans logs
-* Collects ips and software information around the network
-* Notifies about new missions and strange log activities
-* Tranfers earned money to BTC wallet automatically
-* Custom user scripts
+* Resolve caminho de enigmas
+* Faz missões do jogo
+    * Missões difíceis e médias
+    * Missões fáceis - De exclui ou roubar software 
+* Intercepta transações bancárias
+* Executa uploads massivos
+* Limpa logs
+* Coleta informações de ips e software em toda a rede
+* Notifica sobre novas missões e atividades estranhas nos logs
+* Transfere o dinheiro ganho para a carteira BTC automaticamente
+* Scripts de usuário personalizados
 
-## How to install
-1. Go to chrome://extensions/
-2. Check 'Developer mode' checkbox
-3. Click on 'Load unpacked extension...'
-4. Load the uncompressed directory
+## Como instalar
+1. Vá para chrome://extensões/
+2. Marque a caixa de seleção 'Modo de desenvolvedor'
+3. Clique em 'Carregar extensão descompactada...'
+4. Carregue o diretório descompactado
 
 
-## How to contribute
-The bot is entirely written with [jSpaghetti](https://github.com/gresendesa/jSpaghetti) API. jSpaghetti provides a modular and declarative way to write scripts.
-There are two ways to add new functionalities.
-* Creating a new sequence into a existing module to related functionality; or
-* Creating a module to build a new functionality.
+## Como contribuir
+O bot é inteiramente escrito com [jSpaghetti](https://github.com/gresendesa/jSpaghetti) API. jSpaghetti fornece uma maneira modular e declarativa de escrever scripts.
+Existem duas maneiras de adicionar novas funcionalidades.
+* Criando de uma nova sequência em um módulo existente para funcionalidade relacionada;
+* Criando um módulo para construir uma nova funcionalidade.
 
 License
 ---
-Licensed under the MIT.
+Licenciado sob  MIT.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg?style=for-the-badge)](https://github.com/exteraDev/HwBOT/blob/main/LICENSE)
