@@ -2,22 +2,8 @@ const webcrawler = $jSpaghetti.module("webcrawler")
 webcrawler.config.debugMode = true
 
 webcrawler.procedure("createFiles", function(shared, hook){
-	/*let title = 'opa guica'
-	let content = `[b]this[/b] is a thing
-that makes me thing about it.
-~&boe
-lot
-`
-	postFile('/internet', title, content, () => {
-		alert('arquivo enviado')
-	})
-	return true
-	*/
 
 	const promisses = []
-
-	/* The following code is pure art <3 */
-
 	promisses.push(() => {
 		console.log('files creating process finished!')
 		hook.next(shared.filesToCreate.length)
