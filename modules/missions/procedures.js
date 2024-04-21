@@ -60,7 +60,7 @@ missions.procedure("getURLMission", function(shared, hooks){
 			var count = (timeToNextMissions * 60) - 50;
 			var counterDelay = 0;
 			var delay = setInterval(function(){
-						getDOMElement("div", "id", "secondsCounterContainer", 0).innerHTML = "Updating list in " + (count - counterDelay) + " seconds";
+						getDOMElement("div", "id", "secondsCounterContainer", 0).innerHTML = "Atualizando lista em " + (count - counterDelay) + " segundos";
 						counterDelay++;
 						if (counterDelay >= count) {
 							clearInterval(delay);

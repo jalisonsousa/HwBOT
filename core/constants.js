@@ -1,4 +1,4 @@
-const VERSION_BOT = "0.3.1.3"
+const VERSION_BOT = "0.3.1.4"
 const COMMAND_PANEL_STORAGE_NAME = "HwBot-ControlPanel"
 const BOT_STORAGE_NAME = "HwBot-State"
 
@@ -75,9 +75,8 @@ const STORAGE_GEARS = "STORAGE_GEARS"
 
 const LANG_EN = "en";
 const LANG_BR = "br";
-const LANG_DE = "de";
-const LANG_EL = "el";
-const LANGUAGES = [LANG_EN, LANG_BR, LANG_DE, LANG_EL];
+const LANGUAGES = [LANG_EN, LANG_BR];
+
 
 //Missions type
 const CHECK_BALANCE = "checkBalance"
@@ -189,8 +188,6 @@ const PUZZLE_DESCRIPTOR = [
     {id:PUZZLE_BITCOINHASH, names:["Bitcoin Hash Function was developed","Função Bitcoin Hash foi desenvolvido"]},
     {id:PUZZLE_GAMERELEASE, names:["Hackewars.io Release Date was","Data de lançamento do Hackewars.io foi"]}
 ]
-
-
 
 
 String.prototype.hashCode = function () {

@@ -4,12 +4,12 @@ function controlPanel(){
 		controllers.bot.controlPanel.fieldsContent[LANGUAGE_FIELD] = detectLang()
 		controllers.storage.set(controllers.bot)
 		DETECTED_LANG = detectLang();
-		if (!DETECTED_LANG) DETECTED_LANG = LANG_EN;
+		if (!DETECTED_LANG) DETECTED_LANG = LANG_BR;
 	} else {
 		DETECTED_LANG = controllers.bot.controlPanel.fieldsContent[LANGUAGE_FIELD]
 	}
 
-	if(!LANG_CONTENT[DETECTED_LANG]) DETECTED_LANG = LANG_EN;
+	if(!LANG_CONTENT[DETECTED_LANG]) DETECTED_LANG = LANG_BR;
 	LANG = LANG_CONTENT[DETECTED_LANG];
 
 	views.appendControlPanel(controllers)

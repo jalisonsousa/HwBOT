@@ -84,7 +84,7 @@ LANG_CONTENT[LANG_BR] = {
     IP_RESETED_ERROR: "Occoreu um Erro ao Resetar o IP!",
     NEW_INTRUDER: "Novo Invasor!",
     NEW_INTRUDER_TEXT: "Acabaste de Ser Invadido por ",
-    RUN_DDOSER: "Começar a DDoSar",
+    RUN_DDOSER: "Lançar DDOS",
     DDOS_IP: "IP do alvo",
     DDOS_HOST: "IP para DDoSar: ",
     DDOS_TIMES: "Quantidade: ",

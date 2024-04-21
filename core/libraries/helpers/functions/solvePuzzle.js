@@ -94,7 +94,7 @@ function solvePuzzle(puzzle_id){
 					case LANG_BR:
 						text_answer = "Todo jogador que compra premium é lindo";
 						break;
-					default: text_answer = "Every player that buys premium is awesome";
+					default: text_answer = "Todo jogador que compra premium é lindo";
 				}
 				break;
 			case PUZZLE_SHEEPS: //Sheeps
@@ -118,7 +118,7 @@ function solvePuzzle(puzzle_id){
 					case LANG_BR:
 						text_answer = "centavo";
 						break;
-					default: text_answer = "Penny";
+					default: text_answer = "centavo";
 				}
 				break;
 			case PUZZLE_OLDHOTEL: //Old hotel
@@ -151,7 +151,7 @@ function solvePuzzle(puzzle_id){
 					case LANG_BR:
 						text_answer = "diamante, rubi, safira";
 						break;
-					default: text_answer = "diamond, ruby, sapphire";
+					default: text_answer = "diamante, rubi, safira";
 				}
 				break;
 			case PUZZLE_HACKERMAN: //Hackerman movie origin

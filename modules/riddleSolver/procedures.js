@@ -388,10 +388,10 @@ riddle.procedure("solvePuzzleAuto", function(){
 				button_content = "Solve riddle";
 				break;
 			case LANG_BR:
-				button_content = "Resolver este enigma";
+				button_content = "Resolver enigma";
 				break;
 			default:
-				button_content = "Solve riddle";
+				button_content = "Resolver enigma";
 		}
 		solvePuzzle(puzzle_id)
 		return true
@@ -412,10 +412,10 @@ riddle.procedure("solvePuzzle", function(){
 				button_content = "Solve riddle";
 				break;
 			case LANG_BR:
-				button_content = "Resolver este enigma";
+				button_content = "Resolver enigma";
 				break;
 			default:
-				button_content = "Solve riddle";
+				button_content = "Resolver enigma";
 		}
 		getDOMElement("div", "class", "widget-title", 1).innerHTML += '<button id="solvePuzzleButton" class="btn btn-danger mission-abort">' + button_content + '</button>';
 		document.getElementById("solvePuzzleButton").addEventListener("click", function(){
